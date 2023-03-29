@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #1d1f29;
+}
+
+.header {
+  padding-left: 140px;
+}
+
+.social-media {
+  margin-top: 36px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.total-followers {
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #8c98c6;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px;
+  grid-template-rows: 216px 68.8px 125px 125px;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1110px;
+}
+
+.card {
+  padding: 32px;
+  border-radius: 5px;
+  border-top: 4px solid blue;
+  background-color: #252b42;
+}
+
+.icons-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-media {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #8c98c6;
+}
+
+.numbers-followers {
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.followers {
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #8c98c6;
+}
+
+.today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #1eb589;
+}
+
+.text-today {
+  margin-left: 4px;
+}
+
+.today-red {
+  color: #dc414c;
+}
+
+.card-facebook {
+  border-color: #178ff5;
+}
+
+.card-twitter {
+  border-color: #1da1f2;
+}
+
+.card-instagram {
+  position: relative;
+  border-color: orange;
+}
+
+.card-gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  top: -4px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-image: linear-gradient(to right, #df4896, #ee877e, #fdc366);
+}
+
+.card-youtube {
+  border-color: #c4032b;
+}
+
+.overview {
+  display: flex;
+  align-items: end;
+  grid-column: 1 / 5;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card-small {
+  padding: 24px;
+  border-radius: 5px;
+  background-color: #252b42;
+}
+
+.icons-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-overview {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #8c98c6;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number {
+  margin-top: 21px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
+
+.number-percentage {
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.percentage-green {
+  color: #1eb589;
+}
+
+.percentage-red {
+  color: #dc414c;
+}
